@@ -26,7 +26,12 @@ height: 100%;
 .clear { clear: both; }
 
 h1{
+    text-transform: uppercase;
 
+    font-size: 16pt;
+    font-weight: 900;
+    letter-spacing: 3pt;
+    color: rgb(255, 134, 134);
 }
 
 #navbar{
@@ -273,23 +278,70 @@ img.group-circle{
 }
 
 #slide5{
-    background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
-    height: 200px;
     margin: 0 auto;
-    padding: 250px 0;
+    /* padding: 250px 0; */
     color: #fff;
     background-size: cover;
+    padding-top: 60px;
 }
 
+#slide5-title{
+	text-transform: uppercase;
+	color: rgb(45, 175, 170);
+	text-align: center;
+	margin: 57px 0px;
+	font-size: 32pt;
+	font-weight: 400;
+	letter-spacing: 7px;
+}
 
 
 #footer{
-	position: fixed;
-	width: 100%;
-	top: 5000px;
+	/* position: absolute; */
+	/* width: 100%; */
+	height: 350px;
+
+	/* top: 5000px; */
 	background-color: #000;
+
+	/* margin: 0px 5px; */
+	padding: 0px 20px;
+}
+
+#footer a{
+	color: rgb(123, 201, 198);
+}
+
+.footer-content{
+    /* letter-spacing: 0pt; */
+
+    line-height: 19pt;
+    font-size: 11pt;
+    display: inline-table;
+    color: white;
+    position: relative;
+    margin: 0px 27px;
+    top: 31px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.footer-links{
+	margin: 0px 11px;
+	text-align: left;
+	padding: 0;
+	margin: 10px 0px;
+	list-style-type: none;
+	/* color: rgb(45, 175, 170); */
 }
 
 
-
-
+#copyright{
+	font-size: 11pt;
+	color: #FFF;
+	position: relative;
+	top: 91px;
+	width: 100%;
+	text-align: center;
+	font-weight: 300;
+}
